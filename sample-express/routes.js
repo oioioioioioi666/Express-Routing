@@ -1,6 +1,6 @@
 import fetch from "node-fetch";
 export const hello = () => (req, res) => {
-  res.send("Hello World!");
+res.send("Hello! This is my custom greeting from Express!");
 };
 export const apiNames = () => async (req, res) => {
   const url = "https://www.usemodernfullstack.dev/api/v1/users";
